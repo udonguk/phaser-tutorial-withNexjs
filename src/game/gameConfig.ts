@@ -1,4 +1,3 @@
-'use client'
 import * as Phaser from "phaser";
 import GameScene from "@/game/scenes/HelloWorldScene";
 
