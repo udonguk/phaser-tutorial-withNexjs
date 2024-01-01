@@ -4,8 +4,8 @@
 			"image": "rocket-mouse.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 496,
-				"h": 522
+				"w": 493,
+				"h": 247
 			},
 			"scale": 1,
 			"frames": [
@@ -14,24 +14,24 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 400,
-						"h": 438
+						"w": 134,
+						"h": 147
 					},
 					"spriteSourceSize": {
-						"x": 20,
-						"y": 21,
-						"w": 359,
-						"h": 396
+						"x": 6,
+						"y": 6,
+						"w": 122,
+						"h": 135
 					},
 					"frame": {
 						"x": 1,
 						"y": 1,
-						"w": 359,
-						"h": 396
+						"w": 122,
+						"h": 135
 					}
 				},
 				{
-					"filename": "run/rocketmouse_run01.png",
+					"filename": "fall/rocketmouse_fall01.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -41,14 +41,14 @@
 					"spriteSourceSize": {
 						"x": 2,
 						"y": 2,
-						"w": 107,
-						"h": 122
+						"w": 110,
+						"h": 107
 					},
 					"frame": {
 						"x": 1,
-						"y": 399,
-						"w": 107,
-						"h": 122
+						"y": 138,
+						"w": 110,
+						"h": 107
 					}
 				},
 				{
@@ -66,31 +66,10 @@
 						"h": 84
 					},
 					"frame": {
-						"x": 362,
-						"y": 1,
+						"x": 113,
+						"y": 138,
 						"w": 133,
 						"h": 84
-					}
-				},
-				{
-					"filename": "dead/rocketmouse_dead01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 134,
-						"h": 126
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 6,
-						"w": 116,
-						"h": 118
-					},
-					"frame": {
-						"x": 110,
-						"y": 399,
-						"w": 116,
-						"h": 118
 					}
 				},
 				{
@@ -108,8 +87,8 @@
 						"h": 124
 					},
 					"frame": {
-						"x": 362,
-						"y": 87,
+						"x": 125,
+						"y": 1,
 						"w": 106,
 						"h": 124
 					}
@@ -129,10 +108,52 @@
 						"h": 123
 					},
 					"frame": {
-						"x": 362,
-						"y": 213,
+						"x": 233,
+						"y": 1,
 						"w": 106,
 						"h": 123
+					}
+				},
+				{
+					"filename": "dead/rocketmouse_dead01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 116,
+						"h": 118
+					},
+					"frame": {
+						"x": 248,
+						"y": 126,
+						"w": 116,
+						"h": 118
+					}
+				},
+				{
+					"filename": "run/rocketmouse_run01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 107,
+						"h": 122
+					},
+					"frame": {
+						"x": 341,
+						"y": 1,
+						"w": 107,
+						"h": 122
 					}
 				},
 				{
@@ -150,31 +171,10 @@
 						"h": 121
 					},
 					"frame": {
-						"x": 228,
-						"y": 399,
+						"x": 366,
+						"y": 125,
 						"w": 106,
 						"h": 121
-					}
-				},
-				{
-					"filename": "fall/rocketmouse_fall01.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 134,
-						"h": 126
-					},
-					"spriteSourceSize": {
-						"x": 2,
-						"y": 2,
-						"w": 110,
-						"h": 107
-					},
-					"frame": {
-						"x": 362,
-						"y": 338,
-						"w": 110,
-						"h": 107
 					}
 				},
 				{
@@ -192,8 +192,8 @@
 						"h": 60
 					},
 					"frame": {
-						"x": 336,
-						"y": 447,
+						"x": 450,
+						"y": 1,
 						"w": 42,
 						"h": 60
 					}
@@ -213,8 +213,8 @@
 						"h": 44
 					},
 					"frame": {
-						"x": 380,
-						"y": 447,
+						"x": 450,
+						"y": 63,
 						"w": 34,
 						"h": 44
 					}
@@ -225,6 +225,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:c974a2380cb84792a0d37d5a298d5394:0d304267fd92073bb3a8add56723174c:313f07cac562cbc3006d7b8a9e70e85b$"
+		"smartupdate": "$TexturePacker:SmartUpdate:04f09470f421e7817c4b307d6030602c:ed8416addbbb9652bb66ba2fcf230053:8163253ec72dc5fbc2a22be53e79d378$"
 	}
 }

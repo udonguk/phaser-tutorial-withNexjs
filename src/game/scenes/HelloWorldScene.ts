@@ -8,7 +8,7 @@ export default class GameScene extends Phaser.Scene {
         this.load.image('background', '/game/house/bg_repeat_340x640.png')
 
         this.load.atlas(
-            'rocket-mouse',
+            'rocket-mouse.json',
             'game/characters/rocket-mouse.png',
             'game/characters/rocket-mouse.json'
         )
@@ -26,13 +26,8 @@ export default class GameScene extends Phaser.Scene {
         this.add.sprite(
             width * 0.5,
             height * 0.5,
-            'rocket-mouse',
+            'rocket-mouse.json',
             'fly/roketmouse-fly01.png'
-        ).setScale(0.5, 0.5)
-
-        // this.anims.generateFrameNames('rocket-mouse-run', {
-        //     start: 1, end: 4, zeroPad: 2,
-        //     prefix: 'run', suffix: '.png'
-        // });
+        )
     }
 }
